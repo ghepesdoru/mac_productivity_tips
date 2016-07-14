@@ -63,3 +63,10 @@ Use Z happelly ever after.
 
 #### Do not forget about control + r
 You are using the same commands all over again and do not remember each command exactelly each time? Check your recent history throw control + r. Use it and never forget about it, it will save a lot of time.
+
+### Clock and calendar
+Are you used to the Windows calendar on clock click feature? Just use Day-0 and remove your existing clock from the menu bar. http://www.shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock
+
+### Display blue emissions
+Do not destroy your eyes at night, limit the blue radiations using f.lux
+https://justgetflux.com/
