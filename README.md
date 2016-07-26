@@ -102,3 +102,20 @@ Make sure to install Homebrew and use it as your package manager. This helps in 
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+
+#### Do not forget to update
+Every once in a while make sure to update your brew recipes so that you stay up to date.
+```
+brew update
+```
+
+#### Do not forget to upgrade
+Every once in a while after doing a brew update, make an upgrade also to fetch new versions for your used receipes.
+```
+brew upgdare
+```
+
+If for some reason you want to keep a package at it's current version, pin it before the upgrade.
+```
+brew pin package_name
+```
