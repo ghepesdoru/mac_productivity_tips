@@ -72,6 +72,22 @@ For the full features package install the iTerm3 (2.x.y beta version that will b
 ### Use Z to cd into commonly used paths (https://github.com/rupa/z/releases)
 Are your projects located in a directory like Documents/Work/ProjectName/Version/RandomSubfolder and you are sick and tired of cd-ing each time into that long path? It might help you out to have them organised in such a manner, and they totally make sence but all that cd-ing each time you open up a terminal is wasting a thone of time. There is Z for the resque. It remembers the most cd-ed into directories and allows you to access them throw a shorthand
 
+### Add color to your ls commands
+In ~/.bash_profile add:
+```Bash
+export CLICOLOR=1
+```
+
+and for a light background color terminals
+```Bash
+export LSCOLORS=ExFxCxDxBxegedabagacad
+```
+
+and for dark background color terminals
+```Bash
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+```
+
 ```
 cd /Users/RandomUser/Documents/Work/WonderfullProject/v1/sources/
 z sour - and TAB
