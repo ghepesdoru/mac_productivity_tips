@@ -31,6 +31,11 @@ defaults write com.apple.dock autohide-delay -float N; killall Dock;
 defaults write com.apple.dock autohide-time-modifier -float 0.2; killall Dock;
 ```
 
+### Navigate between windows
+#### Navigate to out of focus windows: COMMAND + TAB
+#### Navigate to out of focus windows that are minimized 
+**COMMAND** + **TAB**, select the application you want, relase **TAB**, press **OPTION** and release **COMMAND**
+
 ## Lock your screen
 ### Shorten password promt delay
 Shorten screen saver or sleep password require timer to 5 seconds or immediatelly if you preffer that
@@ -72,22 +77,6 @@ For the full features package install the iTerm3 (2.x.y beta version that will b
 ### Use Z to cd into commonly used paths (https://github.com/rupa/z/releases)
 Are your projects located in a directory like Documents/Work/ProjectName/Version/RandomSubfolder and you are sick and tired of cd-ing each time into that long path? It might help you out to have them organised in such a manner, and they totally make sence but all that cd-ing each time you open up a terminal is wasting a thone of time. There is Z for the resque. It remembers the most cd-ed into directories and allows you to access them throw a shorthand
 
-### Add color to your ls commands
-In ~/.bash_profile add:
-```Bash
-export CLICOLOR=1
-```
-
-and for a light background color terminals
-```Bash
-export LSCOLORS=ExFxCxDxBxegedabagacad
-```
-
-and for dark background color terminals
-```Bash
-export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
-```
-
 ```
 cd /Users/RandomUser/Documents/Work/WonderfullProject/v1/sources/
 z sour - and TAB
@@ -104,6 +93,23 @@ Use Z happelly ever after.
 
 ### Do not forget about control + r
 You are using the same commands all over again and do not remember each command exactelly each time? Check your recent history throw control + r. Use it and never forget about it, it will save a lot of time.
+
+### Add color to your ls commands
+In ~/.bash_profile add:
+```Bash
+export CLICOLOR=1
+```
+
+and for a light background color terminals
+```Bash
+export LSCOLORS=ExFxCxDxBxegedabagacad
+```
+
+and for dark background color terminals
+```Bash
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+```
+
 
 ## Clock and calendar
 Are you used to the Windows calendar on clock click feature? Just use Day-0 and remove your existing clock from the menu bar. http://www.shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock
